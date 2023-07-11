@@ -17,6 +17,9 @@ class Viking extends Soldier {
             return `${this.name} has died in act of combat`;
         }
     }
+    battleCry(){
+        return("Odin Owns You All!");
+    }
 }
 
 
